@@ -46,7 +46,7 @@ public class HelloMath
         }
         if (sayi2 > 0)
         {
-            //sayi2 = Convert.ToInt32(Console.ReadLine());
+            
             for (int i = 1; i <= sayi2; i++)
             {
                 faktoriyel *= i;
@@ -70,7 +70,7 @@ public class HelloMath
             Console.Write("Lütfen pozitif sayı giriniz: ");
             sayi3 = Convert.ToInt32(Console.ReadLine().ToString());
         }
-        //sayi3 = Convert.ToInt32(Console.ReadLine());
+      
         for (int i = 0; i <= sayi3; i += 2)
         {
             ciftToplam += i;
@@ -88,7 +88,7 @@ public class HelloMath
             Console.Write("Lütfen pozitif sayı giriniz: ");
             sayi4 = Convert.ToInt32(Console.ReadLine().ToString());
         }
-        //sayi4 = Convert.ToInt32(Console.ReadLine());
+
 
         for (int i = 0; i <= sayi4; i++)
         {
